@@ -21,7 +21,7 @@ public class App {
 
         for (int i = 0; i < nameArr.length; i++) {
             // new Cat(nameArr[i]); // Objekte , ABER keine Referenz
-            objList.add(new Cat(nameArr[i]));
+            objList.add(new Cat(nameArr[i])); // Referenzen in AL
         }
 
         output("Cats: " + objList);
